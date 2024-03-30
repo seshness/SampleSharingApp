@@ -12,7 +12,6 @@
 		5B3536672BB7ADFD002528DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3536662BB7ADFD002528DB /* Assets.xcassets */; };
 		5B35366A2BB7ADFD002528DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3536692BB7ADFD002528DB /* Preview Assets.xcassets */; };
 		5B3536772BB7AE0D002528DB /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3536762BB7AE0D002528DB /* ShareViewController.swift */; };
-		5B35367A2BB7AE0D002528DB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5B3536792BB7AE0D002528DB /* Base */; };
 		5B35367E2BB7AE0D002528DB /* ShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5B3536742BB7AE0D002528DB /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5B3536842BB7AF98002528DB /* MyJavaScriptFile.js in Resources */ = {isa = PBXBuildFile; fileRef = 5B3536832BB7AF98002528DB /* MyJavaScriptFile.js */; };
 /* End PBXBuildFile section */
@@ -49,7 +48,6 @@
 		5B3536692BB7ADFD002528DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B3536742BB7AE0D002528DB /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3536762BB7AE0D002528DB /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		5B3536792BB7AE0D002528DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		5B35367B2BB7AE0D002528DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B3536832BB7AF98002528DB /* MyJavaScriptFile.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MyJavaScriptFile.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				5B3536762BB7AE0D002528DB /* ShareViewController.swift */,
-				5B3536782BB7AE0D002528DB /* MainInterface.storyboard */,
 				5B35367B2BB7AE0D002528DB /* Info.plist */,
 				5B3536832BB7AF98002528DB /* MyJavaScriptFile.js */,
 			);
@@ -211,7 +208,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B3536842BB7AF98002528DB /* MyJavaScriptFile.js in Resources */,
-				5B35367A2BB7AE0D002528DB /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,17 +240,6 @@
 			targetProxy = 5B35367C2BB7AE0D002528DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5B3536782BB7AE0D002528DB /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B3536792BB7AE0D002528DB /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5B35366B2BB7ADFD002528DB /* Debug */ = {
